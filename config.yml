@@ -1,2 +1,3 @@
 name: Anders Poirel
 markdown: krmarkdown
+permalink: /blog/:year/:month/:day/:title
