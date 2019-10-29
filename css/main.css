@@ -53,6 +53,7 @@ ul.posts li {
     list-style: none;
 }
 
-img {
+img.wrap {
     float: right
+    
 }
