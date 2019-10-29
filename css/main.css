@@ -54,6 +54,6 @@ ul.posts li {
 }
 
 img.wrap {
-    float: right
-    
+    float: right;
+    object-fit: contain
 }
