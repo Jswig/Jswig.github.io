@@ -3,4 +3,4 @@ permalink: /about/
 title: "About"
 ---
 
-I am a computer science and mathematics students at UC Santa Cruz in the class of 2021. My interests include optimization, machine learning and bayesian statistics.
+I study computer science and mathematics at UC Santa Cruz. I'm currently intersted in optimization, machine learning and their application to social science and finance.
