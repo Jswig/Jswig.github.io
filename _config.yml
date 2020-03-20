@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Anders Poirel
-masthead_title: "Darklinear"
+title: "Darklinear"
 email: andersjopo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Anders Poirel's personal website
 # twitter_username: username
-baseurl: "anderspoirel.me"
+# baseurl: "anderspoirel.me"
+url: "https://anderspoirel.me"
 github_username: Jswig
 minimal_mistakes_skin: contrast
 search: true
