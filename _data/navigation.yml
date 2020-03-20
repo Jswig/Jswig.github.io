@@ -1,12 +1,12 @@
 main:
-  - title: "Writing"
-    url: /posts/
-  # - title: "Categories"
-  #   url: /categories/
-  # - title: "Tags"
-  #   url: /tags/
   - title: "About"
-    url: /about/
+    url: /about
+  - title: "Writing"
+    url: /writing
+  # - title: "Categories"
+  #   url: /categories
+  # - title: "Tags"
+  #   url: /tags
   - title: "Resume"
     url: /assets/documents/anders_poirel_resume.pdf
   - title: "Portfolio"

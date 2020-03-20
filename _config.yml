@@ -17,8 +17,7 @@ title: Anders Poirel
 masthead_title: "Darklinear"
 email: andersjopo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-   Anders Poirel's personal website.
-baseurl: "anderspoirel.me"
+  Anders Poirel's personal website
 # twitter_username: username
 github_username: Jswig
 minimal_mistakes_skin: contrast
@@ -29,7 +28,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 10 # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -77,6 +76,7 @@ footer:
     - label: ""
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/anders-p-732595160/"
+
 defaults:
   # _posts
   - scope:
@@ -85,7 +85,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments: true
       share: true
       related: true
