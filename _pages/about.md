@@ -4,5 +4,5 @@ title: "About"
 ---
 
 I study computer science and mathematics at UC Santa Cruz. My current interests include optimization, machine learning and  bayesian statistics.
-I've been working since December 2019 as a developer at an early-stage fintech startup. In April 2020, I joined [Startup Genome](https://startupgenome.com/) as a data science intern.
+I contributed to an early-stage fintech startup throughout Winter 2020. In April 2020, I joined [Startup Genome](https://startupgenome.com/) as a data science intern.
 
