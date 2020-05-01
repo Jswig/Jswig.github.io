@@ -1,16 +1,17 @@
 ---
-title: "An Epistemological Discussion of Computer Simulations"
+title: "Computer Simulations and Epistemology"
 date: 2018-03-15
 categories:
   - essays
 tags:
   - epistemology
+  - philosophy
 ---
 
 Adapted from one of my longer pieces from my freshman year in philosophy
 
 ---
-Since their inception as part of the Manhattan project in the 1940s, computer simulations have become one a staple of contemporary scientific investigation, particularly in fields  in which carrying out physical experiments is impractical if not impossible, from as nuclear detonations to geological history. 
+Since the Manhattan project in the 1940s, computer simulations are a core tool of scientific investigation, particularly in fields  in which carrying out physical experiments is impractical if not impossible, from as nuclear detonations to geological history. 
 In 2010, ‘Bolshoi’, a massive simulation of the evolution of the universe was run on NASA’s Pleiades supercomputer, producing a model universe surprisingly similar to our own, supporting the current model of galaxy formation (Hayes, 2012). In this instance, the computer simulations enabled scientists to study a problem which is otherwise difficult, both due to its scale - the 8 billion particles over 400,000 time frames involved in this “simplified” model are orders of magnitude more than what any human can keep track of - and its subject - the evolution of the universe over the last 13 billion years is not readily available to observation. 
 However, while computer simulations are of great use in studying complex scientific problems, they appear to raise several novel epistemological problems for science.  For instance the ‘virtual’ aspect of computer simulations raises the question of whether they can provide knowledge of the ‘real’ objects science claims to study  
 
