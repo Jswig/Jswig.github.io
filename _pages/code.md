@@ -10,7 +10,7 @@ author_profile: false
 | [DengAI: Predicting Disease Spread](https://github.com/datascienceslugs/dss-diseasespread)| (WIP) Driven Data competion using linear models and Prophet to predict dengue cases. Top ~7% ranking | Python (pandas, seaborn, scikit-learn, prophet) |
 | [LANL Earthquake Prediction](https://github.com/datascienceslugs/dss-earthquakes) | My first Kaggle competition, using stacked models (random forests, SVMs and KNN) to predict earthquakes. Top ~5% ranking |  Python (scikit-learn, pandas, numpy) |
 | [Gridcast](https://github.com/Jswig/lahacks)| Entry for LA Hacks 2020, a web app implementing a live forecastng model of traffic accidents in the LA area and a vehicle routing algorithm avoiding hotspots of danger | Python (flask, prophet, pandas, dash), Javascript, Mapbox
-| [Understanding Clouds from Satellite Images](https://github.com/datascienceslugs/dss-cloudclassification/tree/anders-testing) | Kaggle competition we used a U-net architecture to detect different types of clouds on images | Python (TensorFlow, pandas), Google Cloud Platform
+| [Understanding Clouds from Satellite Images](https://github.com/datascienceslugs/dss-cloudclassification/tree/anders-testing) | Kaggle competition using a U-net architecture to detect different types of clouds on images | Python (TensorFlow, pandas), Google Cloud Platform
 
 
 | software |
