@@ -9,4 +9,4 @@ tags:
   - competition
 ---
 
-What worked - and what didn't - to enhance predictive peformance.
+Evaluating the different approaches we attempted.
