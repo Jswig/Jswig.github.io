@@ -7,7 +7,7 @@ title: "Portfolio"
 Some of my projects and links to the relevant repositories.
 
 | Project | Description | Technologies
-| --- | --- | ---|
+| --- | --- | --- |
 | [The Transparency Project](https://github.com/Jswig/dss-cruzhacks)| 1st place winner of the Cruzhacks 2020 hackathon at UC Santa Cruz, in which we scapped data on politcal ad spending and social media presence and presented it in a slick dashboard interface to give a transparent view of the power of money in politics. Live at [transparencyproject.tech](http://transparencyproject.tech/candidate_dashboard)| Javascript (Bootstrap), Python (flask, pandas, plotly, dash) |
 | [DengAI: Predicting Disease Spread](https://github.com/datascienceslugs/dss-diseasespread)| (WIP) Predicting number of dengue occurences in two cities using gradient boosting and time-series based approaches| Python (pandas, seaborn, scikit-learn, prophet) |
 | [LANL Earthquake Prediction](https://github.com/datascienceslugs/dss-earthquakes) | My first Kaggle competition, in which I use stacked models (random forests, support vector regression and k-nearest neighbors) to predict earthquakes, finishing in the top ~5%. |  Python (scikit-learn, pandas, numpy) |
