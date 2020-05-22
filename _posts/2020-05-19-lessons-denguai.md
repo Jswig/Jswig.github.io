@@ -21,7 +21,9 @@ Future climactic data is also given, a reasonably realistic setup since reliable
 climactic forecasts are readily available.
 {: .text-justify}
 
-![image-center](anderspoirel.me/assets/posts/denguai/historical_cases.png){: .align-center}
+<figure align="middle">
+	<img src="assets/posts/denguai/historical_cases.png">
+</figure>
 
 **Figure 1**: historical outbreak data
 {: .text-center}
@@ -33,6 +35,7 @@ the major outbreak years.
 {: .text-justify}
 
 #### more informative features > expressive functional forms
+
 
 
 #### avoid treating models as a black box
