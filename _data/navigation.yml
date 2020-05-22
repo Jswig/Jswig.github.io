@@ -1,8 +1,8 @@
 main:
   - title: "about"
     url: /about
-  - title: "posts"
-    url: /posts
+  # - title: "posts"
+  #   url: /posts
   # - title: "Categories"
   #   url: /categories
   # - title: "Tags"
@@ -11,3 +11,5 @@ main:
     url: /assets/documents/anders_poirel_resume.pdf
   - title: "code"
     url: /code
+  - title: "papers & talks"
+    url: /papers_talks
