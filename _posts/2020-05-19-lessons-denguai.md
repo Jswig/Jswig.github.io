@@ -1,8 +1,6 @@
 ---
 title: "Lessons from the DengAI competition"
 date: 2020-05-21
-categories:
-  - reports
 tags:
   - machine learning
   - statistics
@@ -12,7 +10,7 @@ tags:
 Thoughts on my team's approach to the competition.
 {: .text-justify}
 
-## Problem description
+#### problem description
 
 This competition is hosted on 
 [Driven Data](https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/). 
@@ -23,7 +21,7 @@ Future climactic data is also given, a reasonably realistic setup since reliable
 climactic forecasts are readily available.
 {: .text-justify}
 
-![image-center](../assets/posts/denguai/historical_cases.png){: .align-center}
+![image-center](anderspoirel.me/assets/posts/denguai/historical_cases.png){: .align-center}
 
 **Figure 1**: historical outbreak data
 {: .text-center}
@@ -34,17 +32,17 @@ problem is thus to both capture the seasonal aspects and exponential growth in
 the major outbreak years.
 {: .text-justify}
 
-## More informative features > expressive functional forms
+#### more informative features > expressive functional forms
 
 
-## Avoid treating models as a black box
+#### avoid treating models as a black box
 
-Early on, I found some discussions suggesting that Facebook's Prophet forecasting 
+Before getting the idea of using time lagged features, I found some discussions suggesting that Facebook's Prophet forecasting 
 model would give good results on this problem.
-This model family, assuming multiplicative seasonality, is given by
+The model, assuming multiplicative seasonality and additonal regressors $$x(t)$$ is given by
 {: .text-justify}
 
-$$y(t) = g(t) \cdot s(t) + h(t) + \varepsilon$$
+$$y(t) = g(t) \cdot s(t) \cdot \beta x(t) + h(t) + \varepsilon$$
 
 Where $$g(t)$$ is the trend component and $$s(t)$$ the seasonal component. The holiday 
 component $$h(t)$$ was set to 0 as there didn't seem to be any such effect in the historical data.
