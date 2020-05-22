@@ -5,6 +5,7 @@ tags:
   - machine learning
   - statistics
   - competition
+classes: wide
 ---
 
 Thoughts on my team's approach to the competition.
@@ -24,7 +25,6 @@ climactic forecasts are readily available.
 <figure align="middle">
 	<img src="assets/posts/denguai/historical_cases.png">
 </figure>
-
 **Figure 1**: historical outbreak data
 {: .text-center}
 
@@ -36,6 +36,9 @@ the major outbreak years.
 
 #### more informative features > expressive functional forms
 
+This is , but having "growing up" on Kaggle you start to thing that any 
+problem on structured data can be solved reasonably well by throwing stacked
+XGBoost and hyperparamter optimization at it
 
 
 #### avoid treating models as a black box
