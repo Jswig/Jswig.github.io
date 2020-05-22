@@ -8,8 +8,8 @@ author_profile: false
 | --- | --- | --- |
 | [The Transparency Project](https://github.com/Jswig/dss-cruzhacks)| 1st place winner of the Cruzhacks 2020, a web  scrapped data on political ad spending on social media to give a more transparent view of its impact on the primaries. Live at [transparencyproject.tech](http://transparencyproject.tech/candidate_dashboard)| Javascript (Bootstrap), Python (flask, pandas, plotly, dash) |
 | [DengAI: Predicting Disease Spread](https://github.com/datascienceslugs/dss-diseasespread)| (WIP) Driven Data competion using linear models and Prophet to predict dengue cases. Top ~7% ranking | Python (pandas, seaborn, scikit-learn, prophet) |
-| [LANL Earthquake Prediction](https://github.com/datascienceslugs/dss-earthquakes) | My first Kaggle competition, using stacked models (random forests, SVMs and KNN) to predict earthquakes. Top ~5% ranking. |  Python (scikit-learn, pandas, numpy) |
-| [Gridcast](https://github.com/Jswig/lahacks)| Entry for LA Hacks 2020, a web app implementing a live forecastng model of traffic accidents in the LA area and a vehicle routing algorithm avoiding hotspots of danger. | Python (flask, prophet, pandas, dash), Javascript, Mapbox
+| [LANL Earthquake Prediction](https://github.com/datascienceslugs/dss-earthquakes) | My first Kaggle competition, using stacked models (random forests, SVMs and KNN) to predict earthquakes. Top ~5% ranking |  Python (scikit-learn, pandas, numpy) |
+| [Gridcast](https://github.com/Jswig/lahacks)| Entry for LA Hacks 2020, a web app implementing a live forecastng model of traffic accidents in the LA area and a vehicle routing algorithm avoiding hotspots of danger | Python (flask, prophet, pandas, dash), Javascript, Mapbox
 
 
 | software |
