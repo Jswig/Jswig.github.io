@@ -23,7 +23,7 @@ Software packages
 | [scikit-learn-progestimator](https://github.com/Jswig/sklearn-progestimator)| Scikit-learn estimator wrapper to facilitate prediction in time series problems where previous predictions are used as features | Python (scikit-learn, standard packaging tools)|
 
 
-Miscallaneous
+Miscellaneous
 
 | project | description | technologies|
 | --- | --- | --- |

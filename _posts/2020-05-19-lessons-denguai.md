@@ -28,7 +28,7 @@ climactic forecasts are readily available. Predictions are scored by mean absolu
 
 The outbreaks have a clear seasonal pattern, though that is not the entire story as
  the size of the peak varies wildly year on year. The difficulty of the problem is  
-thus to both capture the seasonal structure (relatively easy) and the exponential 
+thus to capture both the seasonal structure (relatively easy) and the exponential 
  growth during the major outbreak years
 (much harder).
 
