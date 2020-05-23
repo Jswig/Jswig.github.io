@@ -8,20 +8,19 @@ tags:
 toc: false
 ---
 
-
-Thoughts on the mistakes I made along the way. For a more in-depth look at
-my team's work in this competition, see [github](https://github.com/datascienceslugs/dss-diseasespread).
+Attempted approaches and pitfalls in model-building. For a more in-depth look at my team's work 
+for this competition, see [github](https://github.com/datascienceslugs/dss-diseasespread).
 {: .text-justify}
 
 ## Problem description
 
 This competition is hosted on 
 [Driven Data](https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/). 
-We are given weekly climactic data such a precipitation and temperature spread for two cities, 
+We are given weekly  data such a precipitation and temperature spread for two cities, 
 San Juan (Puerto Rico) and Iquitos (Peru), as well as the number of dengue fever cases. 
 The goal is to predict the number cases for each city several weeks into the future.
-Future climactic data is also given, a reasonably realistic setup since reliable short-term
-climactic forecasts are readily available. Predictions are scored by mean absolute error (MAE).
+Future  data is also given, a reasonably realistic setup since reliable short-term
+ forecasts are readily available. Predictions are scored by mean absolute error (MAE).
 {: .text-justify}
 
 ### Data
@@ -41,7 +40,7 @@ thus to capture both the seasonal structure (relatively easy) and the exponentia
 {: .text-justify}
 
 In fact, learning the seasonal structure seems to be in reach of even an OLS model
-on the base features. This is because many of the climactic features themselves
+on the base features. This is because many of the  features themselves
 have a seasonal pattern.
 
 ![ols prediction](../assets/posts/denguai/ols_pred.png)
@@ -56,23 +55,24 @@ autocorrelation of cases.
 
 ### Informative features > expressive functional forms
 
-This is obvious to anyone with more skill than me, but "growing up" on Kaggle kernels stacked 
-XGBoosts I internalized the notion that throwing gradient boosting and hyperparameter optimization 
-at almost any structured data problem yields an acceptable first model.
+This might be obvious to those with more skill than me, but "growing up" on Kaggle kernels that 
+stacked XGBoosts I had deceived myself into believing that throwing gradient boosting and 
+hyperparameter optimization at a structured data problem almost always yields an acceptable first 
+model.
 {: .text-justify}
 
-Using this first appraoach resulted a MAE of 28.488, quite a bit worse than the organizers' negative 
+However this approach resulted in a MAE of 28.488, quite a bit worse than the organizers' negative 
 binomial regression [benchmark](https://www.drivendata.co/blog/dengue-benchmark/). 
 Another attempty using a simple linear model (linear regression with an $$L2$$ penalty) turned up
  similar scores. The extra expressivity of XGBoost did not seem to be doing much for us here. 
 {: .text-justify}
 
-Previous research showed that climactic data up to seven weeks in the past, in particular humidity 
-and precipitation, is linked to outbreaks in dengue symptoms [1] (mosquito eggs become adults 
-capable of transmitting the disease 10-45 days after being laid in favorable conditions).
-Thus the next model used climactic data seven weeks in the past. Using again a linear regression
-, this time with an $$L1$$ penalty to compensate for the the increased number of features, yields
-an MAE of 25.735, enough to beat the benchmark and break into the top 1000.
+Previous research showed that climatic variations up to seven weeks in the past, in particular in 
+humidity and precipitation, are linked to dengue outbreaks (mosquito eggs become adults 
+capable of transmitting the disease whitin 10-45 days) [1].
+Thus the next model included climatic data at time lags 1-7 weeks. Using again a linear regression, 
+this time with an $$L1$$ penalty to compensate for the the increased number of features, an 
+an MAE of 25.735 is obtained, enough to beat the benchmark and break into the top 1000.
 {: .text-justify}
 
 

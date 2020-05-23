@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://anderspoirel.me"
 github_username: Jswig
 minimal_mistakes_skin: contrast
+repository: Jswig/Jswig.github.io
 search: true
 
 # Build settings
@@ -101,7 +102,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-
 
 category_archive:
   type: liquid
