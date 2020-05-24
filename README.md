@@ -7,3 +7,4 @@ Source for my personal website, powered by [Jekyll](https://jekyllrb.com/) and b
 
 - `footer.html` makes a simpler footer (less text)
 - `scripts.html` has added script to support MathJax
+- in `config.yml` the line `github: [metadata]` prevents "No GitHub API authentication could be found warnings"
