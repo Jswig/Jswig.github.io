@@ -64,7 +64,7 @@ plugins:
 # Site author
 author:
   name   : "Anders Poirel"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo.png"
   bio    : "Math and computer science student. I like statistical learning."
   links:
     - label: "GitHub"
