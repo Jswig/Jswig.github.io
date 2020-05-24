@@ -17,7 +17,7 @@ Github correctly advises to configure your `CNAME` DNS with `www` host pointing 
 `<repo-name>.githun.io`. 
 {: .text-justify}
 
-However, the root of the issue was with `A` DNS records. Several of top hits on Google incorrectly advise to create the following DNS `A` records:
+However, the root of the issue was with `A` DNS records. Several of the top hits on Google incorrectly advise to create the following DNS `A` records:
 {: .text-justify}
 
 - `@` host, pointed to `192.30.252.153` 
