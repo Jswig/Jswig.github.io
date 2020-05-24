@@ -65,7 +65,7 @@ plugins:
 author:
   name   : "Anders Poirel"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Math and computer science student. I like statistical learning."
+  bio    : "Math and computer science student"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
