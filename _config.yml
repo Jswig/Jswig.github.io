@@ -64,8 +64,8 @@ plugins:
 # Site author
 author:
   name   : "Anders Poirel"
-  avatar : "/assets/images/bio-photo.png"
-  bio    : "Math & CS at UC Santa Cruz"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Math and computer science student. I like statistical learning."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

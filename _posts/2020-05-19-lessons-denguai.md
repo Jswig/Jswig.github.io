@@ -1,6 +1,6 @@
 ---
 title: "Lessons from the DengAI competition"
-date: 2020-05-21
+date: 2020-05-19
 tags:
   - machine learning
   - statistics
