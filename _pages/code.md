@@ -8,10 +8,11 @@ Hackathons and data science competitions
 
 | competition | description | technologies |
 | --- | --- | --- |
-| [The Transparency Project](https://github.com/Jswig/dss-cruzhacks)| 1st place winner of the Cruzhacks 2020, a web  scrapped data on political ad spending on social media to give a more transparent view of its impact on the primaries. Live at [transparencyproject.tech](http://transparencyproject.tech/candidate_dashboard)| Javascript (Bootstrap), Python (flask, pandas, plotly, dash), Google Cloud Platform |
-| [DengAI: Predicting Disease Spread](https://github.com/datascienceslugs/dss-diseasespread)| (WIP) Driven Data competition using linear models and Prophet to predict dengue cases. Top ~7% ranking | Python (pandas, seaborn, scikit-learn, prophet) |
-| [LANL Earthquake Prediction](https://github.com/datascienceslugs/dss-earthquakes) | My first Kaggle competition, using stacked models (random forests, SVMs and KNN) to predict earthquakes. Top ~5% ranking |  Python (scikit-learn, pandas, numpy) |
+| [The Transparency Project](https://github.com/Jswig/dss-cruzhacks)| 1st place winner at Cruzhacks 2020, a intervative web app displaying ed data on political ad spending on social media to give a more transparent view of its impact on the primaries. Live at [transparencyproject.tech](http://transparencyproject.tech/candidate_dashboard)| Javascript (Bootstrap), Python (flask, pandas, plotly, dash), Google Cloud Platform |
+| [DengAI: Predicting Disease Spread](https://github.com/datascienceslugs/dss-diseasespread)| (WIP) Driven Data competition using linear models and Prophet to predict dengue cases. Top ~7% ranking | Python (pandas, seaborn, scikit-learn, prophet, statsmodels) |
+| [LANL Earthquake Prediction](https://github.com/datascienceslugs/dss-earthquakes) | My first Kaggle competition, using stacked models (random forests, SVMs and KNN) to predict earthquakes. Top ~5% ranking/ Bronze medal |  Python (scikit-learn, pandas, numpy) |
 | [Gridcast](https://github.com/Jswig/lahacks)| Entry for LA Hacks 2020, a web app implementing a live forecasting model of traffic accidents in the LA area and a vehicle routing algorithm avoiding hotspots of danger | Python (flask, prophet, pandas, dash), Javascript, Mapbox
+| [Flu Shot Learning](https://github.com/Jswig/drivendata-flu-learning) | Driven Data competition, using logistic regression to predict flu vaccination. Top 19\% | Python (pandas, scikit-learn), Snakemake |
 | [Understanding Clouds from Satellite Images](https://github.com/datascienceslugs/dss-cloudclassification/tree/anders-testing) | Kaggle competition using a U-net architecture to detect different types of clouds on images | Python (TensorFlow, pandas), Google Cloud Platform
 
 
@@ -20,7 +21,8 @@ Software packages
 | name | description | technologies |
 | --- | --- | --- |
 | [Cookiecutter - Flexible ML](https://github.com/Jswig/cookiecutter-flexible-ml) | Flexible  [cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.2/) template for machine learning/data analysis projects | Python (cookiecutter, jinja2) | 
-| [scikit-learn-progestimator](https://github.com/Jswig/sklearn-progestimator)| Scikit-learn estimator wrapper to facilitate prediction in time series problems where previous predictions are used as features | Python (scikit-learn, standard packaging tools)|
+| [Popper](https://github.com/getpopper/popper) | An open-source workflow execution engine. My contributions focused on Docker integration and computational science workflows | Python (click), Docker
+| [scikit-learn-progestimator](https://github.com/Jswig/sklearn-progestimator)| Scikit-learn estimator wrapper to facilitate prediction in time series problems where previous predictions are used as features | Python (scikit-learn)|
 
 
 Miscellaneous
