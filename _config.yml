@@ -72,7 +72,7 @@ author:
       url: "https://github.com/Jswig"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "www.linkedin.com/in/anders-poirel-732595160/"
+      url: "https://www.linkedin.com/in/anders-poirel-732595160"
 
 # footer contents
 footer:
@@ -82,7 +82,7 @@ footer:
       url: "https://github.com/Jswig"
     - label: ""
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/anders-p-732595160/"
+      url: "https://www.linkedin.com/in/anders-poirel-732595160"
 
 defaults:
   # _posts
