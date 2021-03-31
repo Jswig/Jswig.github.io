@@ -18,3 +18,6 @@ author_profile: false
 contributed to data preparation and visualization
 
 #### other papers
+
+- 12-2020: Distributed Support Vector Machines via the Alternating Direction Method of Multipliers ([pdf](https://github.com/Jswig/am229-final/blob/main/am229_final_paper.pdf), [LaTeX](https://github.com/Jswig/am229-final/blob/main/am229_final_paper.tex)), 
+final paper for AM 229: Convex Optimization, taken in Fall 2020
