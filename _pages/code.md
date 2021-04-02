@@ -29,6 +29,8 @@ Miscellaneous
 
 | project | description | technologies|
 | --- | --- | --- |
+| [Synthetic Genes](https://github.com/Jswig/ucsc-cgl-synthetic-genomes)| WIP Research project with the UCSC Genomics Institute on 
+developing a generative statistical model for the BRCA genes to enable privacy-compliant data sharing| Bash, Python (Pandas, scikit-allel, PyTorch) | 
 | [Predicting ratings from Reviews](https://github.com/Jswig/cse142-final-project)| Class final project implementing a LSTM model to predict star ratings from Yelp reviews text | Python (Tensorflow, Pandas) |
 | [Detecting Phones](https://github.com/Jswig/bctakehome)| Toy computer vision project I used to learn OpenCV, implementing an algorithm that detects smartphones in images| Python (OpenCV)
 | [Who is Satoshi?](https://github.com/Jswig/Computational-Futurology/blob/master/Who_Is_Satoshi) | Open-ended class project using text mining in R to examine evidence that cryptographer Nick Szabo is Satoshi Nakamoto | R (tm) 
