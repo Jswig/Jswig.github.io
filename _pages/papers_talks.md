@@ -14,7 +14,7 @@ author_profile: false
 
 #### other papers
 
-- 06-2020: Solving One-Point Go Endgames with Combinatorial Game Theory ([pdf](https://github.com/Jswig/math194-final/blob/master/final_paper/math194_paper.pdf), [LaTeX](https://github.com/Jswig/math194-final/tree/master/final_paper), Senior paper for my BA in Mathematics, MATH 194, taken in Spring 2021
+- 06-2021: Solving One-Point Go Endgames with Combinatorial Game Theory ([pdf](https://github.com/Jswig/math194-final/blob/master/final_paper/math194_paper.pdf), [LaTeX](https://github.com/Jswig/math194-final/tree/master/final_paper)), Senior paper for my BA in Mathematics, MATH 194, taken in Spring 2021
 - 12-2020: Distributed Support Vector Machines via the Alternating Direction Method of Multipliers ([pdf](https://github.com/Jswig/am229-final/blob/main/am229_final_paper.pdf), [LaTeX](https://github.com/Jswig/am229-final/blob/main/am229_final_paper.tex)), 
 final paper for AM 229: Convex Optimization, taken in Fall 2020
 
