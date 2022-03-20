@@ -65,7 +65,7 @@ plugins:
 author:
   name   : "Anders Poirel"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Data Scientist"
+  bio    : ""
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
