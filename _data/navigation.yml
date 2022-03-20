@@ -1,6 +1,6 @@
 main:
   - title: "about"
-    url: /about
+    url: /
   # - title: "posts"
   #   url: /posts
   # - title: "Categories"
